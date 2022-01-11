@@ -42,9 +42,7 @@ if(!function_exists('anoshc_Menu_Icon_Slider')){
 			$slider_data[] = $temp;
 
 		}
-		
-		add_action( 'wp_footer', function(){
-			$carousel_opts = " loop:true,
+		$carousel_opts = " loop:true,
 					    margin:10,
 					    speed:3000,
 					    nav:true,
@@ -60,7 +58,11 @@ if(!function_exists('anoshc_Menu_Icon_Slider')){
 					            items:4
 					        }
 					    }";
-			if(is_rtl()) $carousel_opts .= ", rtl : true";
+		if(is_rtl()) $carousel_opts .= ", rtl : true";
+		
+		wp_enqueue_script( 'owl.carousel' );
+		
+		add_action( 'wp_footer', function() use($carousel_opts){
 		
 			echo "<script type='text/javascript'>
 					jQuery(document).ready(function($){
@@ -79,3 +81,4 @@ if(!function_exists('anoshc_Menu_Icon_Slider')){
 }
 
 add_shortcode( 'menu-icon-slider', 'anoshc_Menu_Icon_Slider' );
+?>

@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: AnonyEngine shortcodes\n"
+"POT-Creation-Date: 2020-11-29 09:27+0200\n"
+"PO-Revision-Date: 2020-11-29 09:30+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions/helpers.php:60 functions/slider-data.php:63
+#: functions/slider-data.php:64 functions/slider-data.php:92
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions/helpers.php:61
+msgid "Read more"
+msgstr ""
+
+#: functions/shortcodes/circle-slider.php:9
+msgid "No data to display"
+msgstr ""
+
+#: functions/shortcodes/menu-icon-slider.php:24
+msgid "No items to display"
+msgstr ""
+
+#: functions/shortcodes/posts-grid.php:49
+msgid "No posts found"
+msgstr ""
+
+#: functions/slider-data.php:61
+#, php-format
+msgctxt "General Name"
+msgid "%s"
+msgstr ""
+
+#: functions/slider-data.php:62
+#, php-format
+msgctxt "Singular Name"
+msgid "%s"
+msgstr ""
+
+#: functions/slider-data.php:65
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: functions/slider-data.php:66
+#, php-format
+msgid "%s Attributes"
+msgstr ""
+
+#: functions/slider-data.php:67 functions/slider-data.php:155
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: functions/slider-data.php:68 functions/slider-data.php:148
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: functions/slider-data.php:69
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: functions/slider-data.php:70
+msgid "Add New"
+msgstr ""
+
+#: functions/slider-data.php:71
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: functions/slider-data.php:72 functions/slider-data.php:149
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: functions/slider-data.php:73
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: functions/slider-data.php:74 functions/slider-data.php:75
+#: functions/slider-data.php:150
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: functions/slider-data.php:76
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: functions/slider-data.php:77
+msgid "Not found"
+msgstr ""
+
+#: functions/slider-data.php:78
+msgid "Not found in Trash"
+msgstr ""
+
+#: functions/slider-data.php:79
+msgid "Featured Image"
+msgstr ""
+
+#: functions/slider-data.php:80
+msgid "Set featured image"
+msgstr ""
+
+#: functions/slider-data.php:81
+msgid "Remove featured image"
+msgstr ""
+
+#: functions/slider-data.php:82
+msgid "Use as featured image"
+msgstr ""
+
+#: functions/slider-data.php:83
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: functions/slider-data.php:84
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: functions/slider-data.php:85
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: functions/slider-data.php:86
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#: functions/slider-data.php:87
+#, php-format
+msgid "Filter %s list"
+msgstr ""
+
+#: functions/slider-data.php:93
+#, php-format
+msgid "Here you can add your %s"
+msgstr ""
+
+#: functions/slider-data.php:151
+#, php-format
+msgid "update %s"
+msgstr ""
+
+#: functions/slider-data.php:152
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: functions/slider-data.php:153
+#, php-format
+msgid "new %s"
+msgstr ""
+
+#: functions/slider-data.php:154
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: functions/slider-data.php:156
+#, php-format
+msgid "search %s"
+msgstr ""
+
+#: functions/slider-data.php:157
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: functions/slider-data.php:188
+msgid "Anony Slider"
+msgstr ""
+
+#: functions/slider-data.php:189
+msgid "Anony Sliders"
+msgstr ""
+
+#: functions/slider-data.php:207
+msgid "Slider category"
+msgstr ""
+
+#: functions/slider-data.php:207
+msgid "Slider categories"
+msgstr ""
+
+#: templates/slick-vertical-text-slider.php:3
+msgid " Secure payment"
+msgstr " دفع آمن"
+
+#: templates/slick-vertical-text-slider.php:4
+msgid " 100% Authentic Products"
+msgstr " منتجات أصلية 100%"
+
+#: templates/slick-vertical-text-slider.php:5
+msgid " Express delivery available from 8 am to 12:30 am"
+msgstr " توصيل سريع متاح من 8 صباحاً حتى 12:30 صباحاً"
+
+#: templates/slick-vertical-text-slider.php:6
+msgid " Free Delivery Within 6 business days"
+msgstr " توصيل مجاني خلال 6 أيام عمل"
+
+#: templates/slick-vertical-text-slider.php:7
+msgid " Limited Time Exclusive Offers"
+msgstr " عروض حصرية محدودة"
+
+#. Plugin Name of the plugin/theme
+msgid "AnonyEngine shortcodes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://makiomar.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Some shortcodes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mohammad Omar"
+msgstr ""
