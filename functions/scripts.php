@@ -17,6 +17,7 @@ function anoshc_styles(){
 		'slick-vtext' => 'slick-vtext-slider',
 		'heapshot' => 'heapshot',
 		'owl.carousel' => 'owl.carousel.min',
+		'flickity' => 'flickity.min',
 	];
 	
 	$styles = array_merge($styles, $styles_libs);
@@ -50,7 +51,8 @@ function anoshc_scripts(){
 		'heapshot' => 'jquery.heapshot',
 		'imagesloaded' => 'jquery.imagesloaded.min',
 		'jQueryRotate' => 'jQueryRotate.min',
-		'owl.carousel' => 'owl.carousel.min'
+		'owl.carousel' => 'owl.carousel.min',
+		'flickity' => 'flickity.pkgd.min'
 	];
 	
 	$scripts = array_merge($libs_scripts, $scripts);
